@@ -1,5 +1,5 @@
 require 'active_support/concern'
-require 'thread_safe'
+require 'concurrent'
 
 module LoggerSilence
   extend ActiveSupport::Concern
